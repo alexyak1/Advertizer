@@ -4,6 +4,7 @@
 - Clone repo 
 - Activate env ``` source env/bin/activate ```
 - Install all requirements ``` pip install -r requirements.txt ```
+- Come to project directory ``` cd advert/ ```
 - Run project on 8000 port ``` python manage.py runserver 8000 ```
 
 See all adverts: http://127.0.0.1:8000/ads/

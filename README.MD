@@ -7,9 +7,17 @@
 - Come to project directory ``` cd advert/ ```
 - Run project on 8000 port ``` python manage.py runserver 8000 ```
 
-See all adverts: http://127.0.0.1:8000/ads/
+## Available HTTP Methods
 
-See advert by id: http://127.0.0.1:8000/ads/2
+* GET 
+  * See all adverts: http://127.0.0.1:8000/ads/
+  * See advert by id: http://127.0.0.1:8000/ads/2
+- POST
+  * add advert: http://127.0.0.1:8000/ads/ with params like in example: ``` {"subject": "aluminium fälgar och sommar döck",
+"body": "Fälgar till BMW 530. Fäglar fina däck lite slitna men fins en del kvar på",
+"price": "1500",
+"email": "asdasd@assd.asd"} ```
+
 
 # Response structure
 ```json

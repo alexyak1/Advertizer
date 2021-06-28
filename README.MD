@@ -7,6 +7,9 @@
 - Come to project directory ``` cd advert/ ```
 - Run project on 8000 port ``` python manage.py runserver 8000 ```
 
+### Run tests 
+``` python manage.py test ```
+
 ## Available HTTP Methods
 
 * GET 

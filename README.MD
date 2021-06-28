@@ -13,10 +13,12 @@
   * See all adverts: http://127.0.0.1:8000/ads/
   * See advert by id: http://127.0.0.1:8000/ads/2
 - POST
-  * add advert: http://127.0.0.1:8000/ads/ with params like in example: ``` {"subject": "aluminium fälgar och sommar döck",
+  * Add advert: http://127.0.0.1:8000/ads/ with params like in example: ``` {"subject": "aluminium fälgar och sommar däck",
 "body": "Fälgar till BMW 530. Fäglar fina däck lite slitna men fins en del kvar på",
 "price": "1500",
 "email": "asdasd@assd.asd"} ```
+- DELETE 
+  * Delete ad by id: http://127.0.0.1:8000/ads/27/ ` curl -X DELETE "http://localhost:8000/ads/<ad-id>/" `
 
 
 # Response structure

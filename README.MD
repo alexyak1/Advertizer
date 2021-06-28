@@ -20,6 +20,14 @@
 - DELETE 
   * Delete ad by id: http://127.0.0.1:8000/ads/27/ ` curl -X DELETE "http://localhost:8000/ads/<ad-id>/" `
 
+## Sorting results
+You can sort results by two fields **created** and **price**
+
+example of get request with sorting: 
+- ``` http://127.0.0.1:8000/ads?ordering=price ```
+
+
+- ``` http://127.0.0.1:8000/ads?ordering=-created ```
 
 # Response structure
 ```json

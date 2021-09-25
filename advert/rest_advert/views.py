@@ -14,3 +14,6 @@ class AdList(generics.ListCreateAPIView):
 class AdDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Ad.objects.all()
     serializer_class = AdSerializer
+
+    def patch(self, request, *args, **kwargs):
+        return self.partial_update(request, *args, **kwargs)
